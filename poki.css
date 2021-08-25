@@ -1,0 +1,346 @@
+nav ul{
+    display:flex;
+    flex-direction:row;
+    border:1px solid white;
+    background-color:#f9f9f9;
+    list-style-type:none;
+    justify-content:space-evenly;
+    align-items:center;
+    padding:0;
+    }
+    #header-img {
+    margin-right:350px;
+    margin-left:-55px;
+    }
+    li a{
+    text-decoration:none;
+    color:inherit;
+    font-weight:400;
+    }
+    #header-img{
+    width:100px;
+    height:30px;
+    margin-top:7px;
+    margin-bottom:4px;
+    }
+    .button-type {
+    background-color:tomato;
+    padding:2px 40px;
+    margin-right:-55px;
+    color:white;
+    }
+.box6 {
+    border:1px solid white;
+    }
+    .box6-content {
+    border:1px solid white;
+    margin:0 280px 0 280px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 10px;
+    color: #8a8a8a;
+    }
+    #header-box6,#pokemon-battles {
+    text-align: center !important;
+    color:black;
+    }
+    #pokemon-battles {
+    font-size:45px;
+    margin:40px auto 20px auto;
+    }
+    #header-box6, .item-2 .first {
+    margin-bottom: 15px;
+    color:black;
+    font-weight: 550;
+    }
+    table,th,td {
+    border:1px solid #8a8a8a;
+    border-collapse: collapse;
+    }
+    .item-2 p {
+    padding-bottom:25px;
+    line-height:1.6;
+    }
+    th {
+    color: black;
+    text-align: left !important;
+    }
+    .item-2 .first {
+    margin-bottom:0px !important;
+    }
+    th,td {
+    padding: 12px 10px 12px 10px;
+    }
+    .item-1 #p1 {
+    color:black;
+    padding:12px 10px 60px 0px;
+    }
+    .item-1 #p2 {
+    color: #4992ca;
+    font-size: 18px;
+    padding-left:50px;
+    padding-bottom: 20px;
+    }
+    #buy-button {
+    color:white;
+    padding:12px 75px;
+    background-color: #4992ca;
+    border:none;
+    margin-left: 35px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 0;
+    margin-bottom: 20px;
+    }
+    .box9 {
+        border:1px solid #4992ca;
+        font-family: Avenir-Next,Roboto,sans-serif;
+        padding:0;
+        background-color: #4992ca;
+        color:white;
+        }
+        .box9-content {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap:40px;
+        grid-row-gap: 40px;
+        border:1px solid #4992ca;
+        margin: auto 180px 30px 180px;
+        padding-top:20px;
+        }
+        .box9-content img.poke-name {
+        max-width:200px;
+        border-radius:50%;
+        border:1px solid #4992ca;
+        margin-right: 0;
+        }
+        .box9-content img.poke-tag {
+        max-width:200px;
+        border:1px solid #4992ca;
+        margin-right: 0;
+        }
+        .box9-content h4 {
+        font-size:30px;
+        font-weight:100;
+        text-align: center;
+        }
+        .box9-content h6 {
+        font-size: 16px;
+        font-weight:100;
+        text-align: center;
+        }
+        .box9-content > * {
+        border: 1px solid #4992ca;
+        }
+        #header-box9 {
+        font-size:45px;
+        padding-top:40px;
+        text-align:center;
+        }
+        .box9-content .poke-diff-name {
+        max-width:200px;
+        height:200px;
+        border-radius:50%;
+        border:1px solid #4992ca;
+        margin-right: 0;
+        }
+        .box9-content div {
+        width:180px;
+        }
+        .box10 {
+          border:1px solid white;
+        }
+        .box10-content {
+          border:1px solid white;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          max-width:950px;
+          margin:auto;
+        }
+        .box10-content div {
+          border:1px solid white;
+          padding-right:10px;
+          width:50%;
+        }
+        .box10-content .card {
+          margin-bottom: 15px;
+        }
+        #generations-cards {
+          text-align: center;
+          font-size: 45px;
+          padding:30px;
+        }
+         #first-generations, #second-generations, #third-generations, #fourth-generations {
+          font-size: 35px;
+          color:black;
+          padding:10px 0 20px 20px;
+        }
+        .card > div {
+          border-top:18px solid #4992ca !important;
+          border:1px solid #ccc;
+          width:100%;
+          background-color: #f6f6f6;
+        }
+        .time-span {
+          padding:15px 0 25px 20px;
+          font-size: 18px;
+          color:black;
+        }
+        .details {
+          border:1px solid #ccc;
+          line-height:1.5;
+          padding:20px 10px 20px 10px;
+          font-size: 18px;
+          color:black;
+          height: 70%;
+        }
+        .box11 {
+            border:1px solid #424242;
+            background-color: #424242;
+            }
+        .box11-content {
+            border:1px solid #424242;
+            max-width: 770px;
+            margin:auto;
+            margin-top: 20px;
+            margin-bottom: 80px;
+            }
+            #subscribe {
+            color:white;
+            text-align: center;
+            font-size: 45px;
+            margin:60px auto 10px auto;
+            }
+            #email {
+            line-height: 3.8;
+            width:380px;
+            position:relative;
+            left:55px;
+            padding-left: 5px;
+            }
+            #submit {
+            background-color: transparent;
+            padding:16px 110px;
+            color:white;
+            border:2px solid white;
+            position:relative;
+            left:55px;
+            font-weight: bold;
+            font-size:16px;
+            }
+        .box13 {
+            border:1px solid #4992ca;
+            background-color: #4992ca;
+            color:white;
+            }
+            .box13-content {
+            max-width: 1170px;
+            border:1px solid #4992ca;
+            margin:auto;
+            display:flex;
+            flex-direction:row;
+            flex-wrap:inherit;
+            text-align: center;
+            margin-bottom:20px;
+            }
+            .box13-content img {
+            width:190px;
+            height:190px;
+            border-radius: 50%;
+            }
+            #designers {
+            text-align: center;
+            font-size:45px;
+            margin-top:50px;
+            margin-bottom:20px;
+            }
+            .box13-content h4 {
+            font-size:30px;
+            }
+            .box13-content h6 {
+            font-size:18px;
+            font-weight: normal;
+            border:1px solid #4992ca;
+            margin:10px auto;
+            }
+            .box13-content p {
+            text-align: left;
+            border:1px solid #4992ca;
+            line-height: 1.2;
+            }
+            .box13-content div {
+            border:1px solid #4992ca;
+            padding:0px 15px;
+            }
+            /* Box-14 */
+            .box14 {
+            border:1px solid white;
+            }
+            .box14-content {
+            border:1px solid white;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            max-width:950px;
+            margin:auto;
+            margin-bottom: 5px;
+            }
+            .box14-content img {
+            width:150px;
+            }
+            #logos,.box14 > p {
+            text-align:center;
+            }
+            #logos {
+            font-size:45px;
+            padding:40px 0 20px 0;
+            }
+            .box14 > p {
+            color:black;
+            padding-bottom: 5px;
+            }
+            .footer {
+                background-color: #161627;
+                border:1px solid #161627;
+                color:white;
+                }
+                .footer-content {
+                display:flex;
+                flex-direction: row;
+                border:1px solid #161627;
+                max-width:1100px;
+                margin:auto;
+                justify-content: space-between;
+                margin:30px auto 30px auto;
+                }
+                ul{
+                list-style-type: none;
+                padding:0;
+                }
+                .footer-content div .diff-color {
+                color:darkslategrey;
+                font-weight: bold;
+                }
+                .footer-content div{
+                border:1px solid #161627;
+                text-align: center !important;
+                line-height:1.8;
+                padding:0 50px;
+                }
+                .footer-content a > i {
+                font-size:18px;
+                border:1px solid #161627;
+                padding:5px;
+                }
+                .footer-4 > i {
+                border:1px solid #161627;
+                padding:15px;
+                }
+                .footer-content a {
+                color:white;
+                text-decoration: none;
+                }
+                button,input {
+                  cursor: pointer;
+                }
